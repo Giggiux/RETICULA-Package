@@ -1,0 +1,14 @@
+language: scala
+
+jdk:
+- oraclejdk8
+
+scala:
+  - 2.12.1
+
+services:
+  - docker
+
+after_success:
+   - docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD"
+   - sbt docker:publish
