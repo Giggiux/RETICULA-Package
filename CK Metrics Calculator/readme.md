@@ -1,5 +1,10 @@
 # CK Metrics Calculator
 
+## Description
+
+CK Metrics Calculator is a fork of [Mauricio Aniche's CK](https://github.com/mauricioaniche/ck)
+
+
 Use the given artifact to test the tool or to use it as dependency. To build it you need credentials to a private maven repository at the moment. 
 
 ## Usage
